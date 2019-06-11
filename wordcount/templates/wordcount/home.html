@@ -1,0 +1,24 @@
+<h1>WORD COUNT</h1>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <div class="container">
+  <!-- Content here -->
+</div>
+    <div class="card text-white bg-success mb-3" style="max-width: 40rem;">
+  <div class="card-header">WORD COUNTER</div>
+  <div class="card-body">
+    <h5 class="card-title"><a href="{% url 'about' %}">ABOUT</a>
+ 
+<form action="{% url 'count' %}">
+    <textarea cols="40" rows="10" name="fulltext"></textarea>
+    <br>
+    <input type="submit" value="Count!" />
+</form></h5>
+  
+  </div>
+</div>
+</head>
+ 
+
+ 
+
